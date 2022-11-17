@@ -1,0 +1,70 @@
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
+
+.outerbox{width: 25vmax;
+    border: .5vmax;
+    border-radius: 1vmax;
+    box-shadow: 0 0 15px black;
+    height: 40vmax;
+    background-color: rgb(110, 183, 228);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.innerbox{ width: 23vmax;
+
+    margin: auto;
+    margin-top: 1vmax; 
+    padding: 1vmax;
+    background-color: whitesmoke;
+    position: relative;
+}
+.rise{color:rgb(110, 183, 228) ;
+font: 500;}
+
+.is{ font: 400 1vmax "montserrat";
+    padding: 1.5vmax;
+    text-align: center;
+}
+button{ border: none;
+    color: aliceblue;
+    background: linear-gradient(to right bottom, rgb(211, 129, 108),rgb(220, 130, 107));
+     padding: 1vmax 2.5vmax;
+    font-size: 1vmax;
+    margin-top: 2vmax;
+    border-radius: .5vmax;
+    font-size: 1vmax;
+    font-weight: 400;
+    margin-left: 3.5vmax;
+    text-align: center  ;
+}
+
+.content{margin-top: 1vmax;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */}
+.is{
+    font-weight: 600;
+}
+
+
+.hr{
+    height: 1px;
+    background-color: rgb(204, 204, 204);
+    border: none;
+}
+
+.down{ text-align: center;
+    width: auto;
+margin-top: 1vmax;
+    font: 300 .4vmax "montserrat";
+    padding: .2vmax;
+}
